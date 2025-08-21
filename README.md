@@ -1,5 +1,5 @@
 # web-development
-# 👋 Hi, I'm [Your Name]  
+# 👋 Hi, I'm Virendra Kumar  
 
 I'm a **beginner Web Developer** passionate about building interactive and user-friendly websites.  
 Currently learning **HTML, CSS, JavaScript**, and exploring modern frameworks.  
