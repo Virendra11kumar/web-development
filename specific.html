@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        /* Specificity is 1 */
+        h1{
+         color: aqua;
+        }
+        /* Specificity is 1+10=11 */
+        h1.yell{
+            color: yellow;
+        }
+        /* Specificity is 10 */
+        .creed{
+            color: red;
+        }
+        /* Specificity is 10 */
+        .purp{
+            color: purple;  
+        }
+      /* Attribute Selector Specificity is 10 */
+         [data-x=a]{ 
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yell creed purp" data-x="a">
+            CSS specificity
+        </h1>
+    </div>
+</body>
+</html>
